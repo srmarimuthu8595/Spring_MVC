@@ -40,7 +40,7 @@ public class LoginDAO {
 			}
 		}catch(Exception exxx){
 			throw exxx;
-		} triggers { pollSCM 'H/5 * * * *' }
+		} 
 		return 	credientialsObjDTO;		
 	}
 	
