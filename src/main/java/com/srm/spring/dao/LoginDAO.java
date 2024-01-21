@@ -34,7 +34,7 @@ public class LoginDAO {
 			
 			    if(credientialsObjDTO.getUsername().equals(object.getUsername())&&credientialsObjDTO.getPassword().equals(object.getPassword())){
 			    	credientialsObjDTO.setStatus("Login success");
-			    }else{* * * * *
+			    }else{
 					credientialsObjDTO.setStatus("Login not success due to invalid username and password");
 				}
 			}
