@@ -38,8 +38,8 @@ public class LoginDAO {
 					credientialsObjDTO.setStatus("Login not success due to invalid username and password");
 				}
 			}
-		}catch(Exception exxx){
-			throw exxx;
+		}catch(Exception exx){
+			throw exx;
 		} 
 		return 	credientialsObjDTO;		
 	}
